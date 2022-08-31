@@ -7,7 +7,7 @@ body {
   background-color: #212529;
 }
 .animation-box {
-  height: 100vh;
+  
   width: 500px;
   position: absolute;
   margin: auto;
@@ -24,7 +24,7 @@ body {
   border-radius: 50%;
   position: relative;
   box-shadow: 0 0 35px #15de3a, 0 0 50px #15de3a;
-  top: 310px;
+  top: 510px;
   left: 210px;
   animation: bounce 1s infinite;
   z-index: 5;
@@ -43,7 +43,7 @@ body {
   50% {
     height: 70px;
     width: 80px;
-    transform: translateY(-310px);
+    transform: translateY(-510px);
   }
   75% {
     height: 80px;
@@ -63,7 +63,7 @@ body {
   width: 70px;
   border-radius: 50%;
   position: relative;
-  top: 300px;
+  top: 500px;
   left: 210px;
   z-index: 4;
   animation: shadowbounce 1s infinite;
